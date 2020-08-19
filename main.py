@@ -16,7 +16,10 @@ def take_input():
     input1 = int(input("Enter a number: "))
     return input1
 take_input()
+
+
 def is_even():
+    """Even odd checker"""
     if input1 % 2 == 0:
          even = print("The number is even")
          return even
